@@ -1,0 +1,156 @@
+.container {
+	background-image: url("http://localhost/WorkingFiles/Chapter16/images/BG.jpg");
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 720px;
+}
+.footer {
+	float: left;
+	font: normal small-caps normal 11px "Tahoma", sans-serif;
+	color: #666666;
+	text-align: center;
+	width: 1280px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.header {
+	height: 60px;
+}
+.active {
+	color: blue;
+	font-weight: bold;
+}
+.outline a {
+	font: normal small-caps bold 32px "Tahoma", sans-serif;
+	color: black;
+	text-align: right;
+}
+html {
+# gets rid of the scrollbar
+#	overflow: hidden;
+}
+.aTable {
+	display: table;
+}
+.aRow {
+	display: row;
+}
+.aCell {
+	display: table-cell;
+}
+.label {
+	width: 200px;
+	font: normal normal normal 18px "Tahoma", sans-serif;
+	color: white;
+	text-align: right;
+	padding-right: 33px;
+}
+.data {
+	width: 550px;
+	font: normal normal bold 20px "Tahoma", sans-serif;
+	text-align: left;
+}
+a {
+	font: normal small-caps normal 11px "Tahoma", sans-serif;
+	color: gray;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	font-weight: bold;
+}
+a:active {
+	color: blue;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+}
+h4 {
+	font: normal small-caps bold 32px "Tahoma", sans-serif;
+	color: black;
+	text-align: center;
+}
+h5 {
+	font: normal normal bold 20px "Tahoma", sans-serif;
+	color: black;
+	text-align: right;
+	display: inline;
+}
+h6 {
+	font: normal normal normal 20px "Tahoma", sans-serif;
+	color: blue;
+	text-align: right;
+	display: inline;
+}
+.theForm {
+	float: left;
+	width: 750px;
+	height: 465px;
+	background-image: url("http://localhost/WorkingFiles/Chapter16/images/orange_bg.png");
+	background-repeat: no-repeat;
+	margin-top: 120px;
+	margin-left: 200px;
+}
+.data {
+	float: left;
+	width: 750px;
+	margin-top: 10px;
+	margin-left: 50px;
+	font-weight: normal;
+}
+.theFormAbove {
+	float: left;
+	width: 750px;
+	height: 96px;
+	background-image: url("http://localhost/WorkingFiles/Chapter16/images/orange_bg_above.png");
+	background-repeat: no-repeat;
+	margin-top: 120px;
+	margin-left: 200px;
+}
+.theFormMiddle {
+	float: left;
+	width: 750px;
+	margin-left: 200px;
+	background-image: url("http://localhost/WorkingFiles/Chapter16/images/orange_bg_middle.png");
+	background-repeat: repeat-y;
+}
+.theFormBelow {
+	float: left;
+	width: 750px;
+	height: 99px;
+	margin-left: 200px;
+	background-image: url("http://localhost/WorkingFiles/Chapter16/images/orange_bg_below.png");
+	background-repeat: no-repeat;
+}
+.theFormBig {
+	float: left;
+	width: 1000px;
+	height: 465px;
+	background-image: url("http://localhost/WorkingFiles/Chapter16/images/orange_bg.png");
+	background-repeat: no-repeat;
+	margin-top: 120px;
+	margin-left: 200px;
+}
+.menu {
+	margin-left: 100px;
+	font: normal small-caps normal 16px "Tahoma", sans-serif;
+	color: black;
+}
+.menuItem {
+	width: 85px;
+	color: black;
+}
+.menuLead {
+	width: 60px;
+	color: white;
+	font-weight: bold;
+}
+.text {
+	font: normal small-caps normal 16px "Tahoma", sans-serif;
+}
+.error {
+	color: blue;
+	font-weight: bold;
+}

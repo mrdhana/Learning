@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Building Web Forms: Capturing Form Data -->
+<!-- Form data is captured into an array data[] -->
+<head>
+    <meta charset="utf-8">
+    <title>Building Web Forms</title>
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" >
+	<link href="images/favicon.ico?v=2" rel="shortcut icon" type="image/vnd.microsoft.icon" >
+</head>
+<body topmargin="0" leftmargin="0">
+    <div class="container">
+      	<div class="theForm">
+		<h4 style="text-align: center;">Capturing Form Data</h4>
+		<form name="purchases" action="web-forms_capturing_4.php" method="POST">
+			<div class="aTable">
+				<div class="aRow">
+					<div class="aCell label">Name</div>
+					<!-- Note the use of data[key] in the "name" field -->
+					<div class="aCell formTd"><input type="text" name="data[name]" size=60 maxlength=255 /></div>
+				</div>
+				<div class="aRow">
+					<div class="aCell label">Address</div>
+					<!-- Note the use of data[key] in the "name" field -->
+					<div class="aCell formTd"><textarea name="data[address]" rows=4 cols=44></textarea></div>
+				</div>
+				<div class="aRow">
+					<div class="aCell label">City</div>
+					<!-- Note the use of data[key] in the "name" field -->
+					<div class="aCell formTd"><input type="text" name="data[city]" size=50 maxlength=255 /></div>
+				</div>
+				<div class="aRow">
+					<div class="aCell label">State / Province</div>
+					<!-- Note the use of data[key] in the "name" field -->
+					<div class="aCell formTd"><input type="text" name="data[stateProvince]" size=50 maxlength=255 /></div>
+				</div>
+				<div class="aRow">
+					<div class="aCell label">Postal Code</div>
+					<!-- Note the use of data[key] in the "name" field -->
+					<div class="aCell formTd"><input type="text" name="data[postCode]" size=16 maxlength=16 /></div>
+				</div>
+				<div class="aRow">
+					<div class="aCell label">Phone Number</div>
+					<!-- Note the use of data[key] in the "name" field -->
+					<div class="aCell formTd"><input type="text" name="data[phone]" size=20 maxlength=20 /></div>
+				</div>
+				<div class="aRow">
+					<div class="aCell label">&nbsp;</div>
+					<div class="aCell formTd"><input type="submit" name="submit" value="Update" /></div>
+				</div>
+			</div>
+		</form>
+		</div>
+		<div style="clear: both;"></div>
+      <div class="footer">
+      	<hr>
+        <p>&copy; 2012 by InfiniteSkills.com | All rights reserved</p>
+      </div>
+    </div> <!-- /container -->
+  </body>
+</html>
